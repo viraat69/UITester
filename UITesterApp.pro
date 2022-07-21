@@ -1,6 +1,5 @@
-QT += quick
-
-CONFIG += c++11
+QT += network qml quick multimedia
+CONFIG += c++11 console
 
 # The following define makes your compiler emit warnings if you use
 # any Qt feature that has been marked deprecated (the exact warnings

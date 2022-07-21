@@ -1,5 +1,43 @@
 <RCC>
     <qresource prefix="/">
         <file>main.qml</file>
+        <file>sounds/20ms_400hz.wav</file>
+        <file>sounds/300_tone.wav</file>
+        <file>sounds/400_clipped_envelope.wav</file>
+        <file>sounds/400_envelope.wav</file>
+        <file>sounds/400_tone.wav</file>
+        <file>sounds/500_tone.wav</file>
+        <file>sounds/600_tone.wav</file>
+        <file>sounds/2500_tone.wav</file>
+        <file>sounds/acksound.wav</file>
+        <file>sounds/badbeep.wav</file>
+        <file>sounds/beep_off_22_sampling_rate.wav</file>
+        <file>sounds/beep_off_48_Rate.wav</file>
+        <file>sounds/beep1.wav</file>
+        <file>sounds/button.wav</file>
+        <file>sounds/chime_up.wav</file>
+        <file>sounds/clicksweeper.wav</file>
+        <file>sounds/ding.wav</file>
+        <file>sounds/handpiece.wav</file>
+        <file>sounds/limit.wav</file>
+        <file>sounds/longbeep.wav</file>
+        <file>sounds/range.wav</file>
+        <file>sounds/rm200hz.wav</file>
+        <file>sounds/rm300hz.wav</file>
+        <file>sounds/rm350hz.wav</file>
+        <file>sounds/rm400hz.wav</file>
+        <file>sounds/rm500hz.wav</file>
+        <file>sounds/rm600hz.wav</file>
+        <file>sounds/rm700hz.wav</file>
+        <file>sounds/rm800hz.wav</file>
+        <file>sounds/rm900hz.wav</file>
+        <file>sounds/rm950hz.wav</file>
+        <file>sounds/rm1000hz.wav</file>
+        <file>sounds/rm1200hz.wav</file>
+        <file>sounds/sci_fi_beep_off.wav</file>
+        <file>sounds/sine2k.wav</file>
+        <file>sounds/SW001_8_Bit_Games_191_Pickup_Coin.wav</file>
+        <file>sounds/treat.wav</file>
+        <file>sounds/warning.wav</file>
     </qresource>
 </RCC>
