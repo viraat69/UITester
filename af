@@ -1,0 +1,99 @@
+
+Item {
+    id: historyListViewHeaderItem
+
+    height: childrenRect.height
+//        width:  parent.width
+    visible: false
+    anchors{
+        left: parent.left
+        leftMargin: 10
+        right: parent.right
+        rightMargin: 10
+    }
+    property string textColor: "#6A82BB"
+    Row {
+        id: headerRow
+        width: parent.width
+        anchors{
+            top: parent.top
+            margins: 2
+        }
+        Text {
+            width: parent.width/4
+            font.pixelSize : 12
+            font.bold : true
+            color : historyListViewHeaderItem.textColor
+            horizontalAlignment :Text.AlignHCenter
+            text: qsTr("SEQUENCE")
+        }
+        Text {
+            width: parent.width/4
+            font.pixelSize : 12
+            font.bold : true
+            color : historyListViewHeaderItem.textColor
+            horizontalAlignment :Text.AlignHCenter
+            text: qsTr("CODE")
+        }
+        Text {
+            width: parent.width/4
+            font.pixelSize : 12
+            font.bold : true
+            color : historyListViewHeaderItem.textColor
+            horizontalAlignment :Text.AlignHCenter
+            text: qsTr("QUANTITY")
+        }
+        Text {
+            width: parent.width/4
+            font.pixelSize : 12
+            font.bold : true
+            color : historyListViewHeaderItem.textColor
+            horizontalAlignment :Text.AlignHCenter
+            text: qsTr("DATE")
+        }
+    }
+
+    BorderImage {
+        id: headerDataDivider
+
+        source: "qrc:/images/line_divider_horizontal_n.png"
+        height: 2
+        anchors{
+            top:headerRow.bottom
+            right: historyListViewHeaderItem.right
+            left:historyListViewHeaderItem.left
+        }
+    }
+}
+Rectangle {
+    anchors.fill: historyListViewHeaderItem
+    color: "transparent"
+    border.color: "green"
+    border.width: 2
+}
+ListView {
+    id: error_log_list_view
+
+    anchors{
+        left: parent.left
+        leftMargin: 10
+        right: parent.right
+        rightMargin: 10
+    }
+}
+//    Rectangle {
+//        anchors{
+//            left: parent.left
+//            leftMargin: 10
+//            right: parent.right
+//            rightMargin: 10
+
+//            top: historyListViewHeaderItem.bottom
+//            topMargin: 50
+//        }
+//        color: "transparent"
+//        border.color: "red"
+//        border.width: 1
+//        height: 50
+//        clip: true
+//    }

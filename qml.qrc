@@ -39,5 +39,7 @@
         <file>sounds/SW001_8_Bit_Games_191_Pickup_Coin.wav</file>
         <file>sounds/treat.wav</file>
         <file>sounds/warning.wav</file>
+        <file>listViewMain.qml</file>
+        <file>images/line_divider_horizontal_n.png</file>
     </qresource>
 </RCC>
