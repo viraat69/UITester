@@ -39,4 +39,4 @@ HEADERS += \
 
 DISTFILES += \
     af \
-    listViewMain.qml
+    listViewMain.qml \
