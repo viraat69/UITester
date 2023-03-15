@@ -14,7 +14,41 @@ Window {
     }
 
 
+    Rectangle {
+        id: bor
+
+        x:30
+        y:60
+
+        width: 400
+        height: 700
+        border.color: "red"
+        border.width: 2
+
+        ListView {
+            implicitWidth: 250
+            implicitHeight: 700
+            anchors.fill: parent
+            clip: true
+
+            model: m1.soundfileLists
+            delegate: Rectangle {
+                width: parent.width
+                height: 20
+
+                Text {
+                    text: modelData
+                }
+            }
+        }
+
+    }
+
+
+
+
     Row{
+
         x:30
         y:40
 
@@ -48,3 +82,17 @@ Window {
     }
 
 }
+
+
+//"Appear.wav"
+//"Clean Notification.wav"
+//"Email Notification.wav"
+//"Incoming Mail.wav"
+//"Interface Opener.wav"
+//"Interface Sound #13.wav"
+//"Message.wav"
+//"Simple Mail Alert Tone.wav"
+//"SMS Notification.wav"
+//"Technology Message.wav"
+//"Text Message.wav"
+//"Warning.wav"
